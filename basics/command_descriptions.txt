@@ -1,0 +1,14 @@
+2-bring_me_home: changes to user's home directory
+3-listfiles: lists current directory contents in long format
+4-listmorefiles: lists all files including hidden ones in long format
+5-listfilesdigitonly: lists all files including hidden ones in long format with numeric IDs
+6-firstdirectory: creates directory /tmp/my_first_directory
+7-movethatfile: moves file betty to /tmp/my_first_directory/
+8-firstdelete: deletes the file betty from /tmp/my_first_directory/
+9-firstdirdeletion: deletes the directory /tmp/my_first_directory
+11-lists: lists all files (including hidden ones) in long format in the current directory, parent directory, and /boot directory
+12-file_type: prints the type of the file /tmp/iamafile
+13-symbolic_link: creates a symbolic link named __ls__ to /bin/ls
+14-copy_html: copies newer/non-existing HTML files to parent directory
+16-clean_emacs: removes backup files created by Emacs (ending with ~)
+17-tree: creates a directory tree with welcome/, welcome/to/, welcome/to/school
