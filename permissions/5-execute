@@ -1,11 +1,2 @@
-chmod +x ~/alu-shell/permissions/5-execute
-cd ~/alu-shell/permissions
-rm -f hello; touch hello
-chmod 644 hello            # remove owner exec
-./5-execute
-ls -l hello                # you should see rwx------ (owner has x)
-cat > ~/alu-shell/permissions/6-multiple_permissions << 'EOF'
 #!/bin/bash
-chmod ug+x,o+r hello
-EOF
-
+chmod u+x hello
