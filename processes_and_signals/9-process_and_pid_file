@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Script that displays To infinity and beyond indefinitely and creates a PID file
 echo $$ > /var/run/myscript.pid
 while true
 do
